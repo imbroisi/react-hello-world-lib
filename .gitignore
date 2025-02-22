@@ -1,0 +1,10 @@
+# Exclude
+node_modules/
+dist/types/  # Keep dist/ but exclude types subfolder
+*.log
+*.tgz
+
+# Include (DO NOT ignore these)
+!dist/cjs/
+!dist/esm/
+!dist/types/index.d.ts
